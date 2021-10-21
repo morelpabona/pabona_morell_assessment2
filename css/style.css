@@ -138,7 +138,7 @@ p {
 
 /* Showcase */
 #showcase {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/main-backround.jpg) no-repeat center center/ cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/main-backround.jpg) no-repeat center center/ cover;
     height: 600px;
     justify-content: center;
     align-content: center;
@@ -194,7 +194,7 @@ p {
 
 }
 #who .who-img {
-    background: url(/img/article.svg) no-repeat center center/ cover; 
+    background: url(../img/article.svg) no-repeat center center/ cover; 
     width: 100%;
     display: block;
 }
