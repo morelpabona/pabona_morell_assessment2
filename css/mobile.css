@@ -1,0 +1,38 @@
+#what .items {
+    display: block;
+}
+
+
+/* Align icon to left */
+#what .items .item {
+    /* display: block; */
+    width: 100%;
+    text-align: left;
+    margin-bottom: 2rem;
+    
+}
+
+/* Position icon */
+#what .items .item i {
+    margin-right: 2rem;
+}
+
+/* Smartphones */
+@media (max-width: 500px) {
+    #who .who-img {
+        display: none;
+    }
+    #navbar {
+        display: block;
+        text-align: center;
+        padding: 1rem;
+    }
+    
+    #navbar ul {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        /* list-style-type: none; */
+        margin-left: 6rem;
+    }
+}
